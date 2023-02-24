@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
+# Display in user oriented format
+# the list of currently running processes
 
 ps -auxf
