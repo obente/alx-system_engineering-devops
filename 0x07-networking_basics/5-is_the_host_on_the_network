@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Ping ip address argument passed to script 5 times
+
+if [[ $# == 0 ]]
+then
+	echo "$0 {IP-ADDRESS}"
+else
+	ping -c 5 $1
+fi
