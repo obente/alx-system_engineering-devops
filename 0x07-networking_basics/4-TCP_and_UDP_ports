@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Script to show listening sockets
+# Shows PID and name of program socket belongs to
+
+netstat -tunlp
