@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# script to create 4096bit rsa key with passwd betty
+ssh-keygen -b 4096 -f school -t rsa -N betty
